@@ -1,0 +1,9 @@
+.t2{--iv:#F2F0EC;--sand:#E2DED6;--ink:#14171C;--ink2:#2B313B;--br:#C4622D;--gd:#F08A4B;--tx:#14171C}
+.t2 h1,.t2 h2,.t2 h3,.t2 .logo{font-family:Inter,sans-serif;font-weight:700;letter-spacing:-.02em}
+.t2 .btn,.t2 .fig,.t2 .feat div,.t2 #mb,.t2 .num{border-radius:0}.t2 .btn{background:var(--br);color:#fff}
+.t2 .hero h1{font-size:clamp(40px,7vw,84px);text-transform:uppercase}.t2 .sh h2{text-transform:uppercase}
+.t2 .arts{counter-reset:a}.t2 .art{grid-template-columns:90px 1.1fr 1fr;counter-increment:a}
+.t2 .art::before{content:counter(a,decimal-leading-zero);font:700 60px/1 Inter,sans-serif;color:var(--br);align-self:start}
+.t2 .art:nth-of-type(even) .fig{order:0}.t2 .mq{background:var(--gd)}
+@media(max-width:760px){.t2 .art{grid-template-columns:1fr}}
+.t2 .art.full::before{display:block;margin-bottom:14px}

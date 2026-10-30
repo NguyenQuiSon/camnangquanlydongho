@@ -1,0 +1,7 @@
+.t1{--iv:#F4F1E6;--sand:#E3DEC8;--ink:#0F3B2E;--ink2:#1D5A45;--br:#9C7A2E;--gd:#D8B860}
+.t1 .arts{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:22px}
+.t1 .art{grid-template-columns:1fr;gap:16px;padding:18px;border:1px solid var(--br);border-radius:18px;background:rgba(255,255,255,.6);transition:.3s}
+.t1 .dark .art{background:rgba(255,255,255,.06)}.t1 .art:hover{transform:translateY(-6px);box-shadow:0 14px 34px rgba(0,0,0,.2)}
+.t1 .art .fig,.t1 .art:nth-of-type(even) .fig{order:-1}
+.t1 .art.full{padding:34px}.t1 .art.full:hover{transform:none;box-shadow:none}
+@media(max-width:760px){.t1 .art.full{padding:20px}}

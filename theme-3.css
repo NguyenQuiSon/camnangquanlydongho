@@ -1,0 +1,7 @@
+.t3{--iv:#F3E9D2;--sand:#E6D5B0;--ink:#4A1F2A;--ink2:#6E2E3E;--br:#8C6A2B;--gd:#D9B56A;--tx:#2B1D1D}
+.t3 h1,.t3 h2,.t3 h3{font-style:italic}.t3 .hg{grid-template-columns:1fr;text-align:center}.t3 .hw{order:-1}
+.t3 .sh{text-align:center}.t3 .sh h2::after{margin-left:auto;margin-right:auto}.t3 .ico{float:none;display:block}
+.t3 .arts{display:grid;gap:26px}.t3 .art{padding:22px;border:4px double var(--br);border-radius:4px;background:#fbf4e3;color:var(--tx)}
+.t3 .dark .art{background:#5a2733;color:#f3e9d2;border-color:var(--gd)}.t3 .art:nth-of-type(even) .fig{order:0}
+.t3 .num{border-radius:4px;transform:rotate(-6deg)}.t3 .mq{background:var(--ink2);color:var(--gd)}
+.t3 .art.full{padding:30px}.t3 .art.full .sum{font-style:italic}

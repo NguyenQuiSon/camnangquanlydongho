@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nguyenquison.github.io/camnangquanlydongho/sitemap.xml
+Sitemap: https://camnangquanlydongho.vercel.app/sitemap.xml

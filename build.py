@@ -2,7 +2,7 @@
 # Chạy: python build.py  -> tạo docs/index.html (trang đơn). Sửa nội dung ở danh sách C bên dưới.
 import os, shutil, html
 e = html.escape
-BASE = "https://nguyenquison.github.io/camnangquanlydongho/"
+BASE = "https://camnangquanlydongho.vercel.app/"
 TODO = '<p class="todo">✦ Bổ sung nội dung chi tiết của bài này tại đây (đoạn văn, danh sách, bảng...).</p>'
 
 # ---------- Hàm hỗ trợ viết bài ----------
